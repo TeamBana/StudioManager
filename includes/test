@@ -1,0 +1,23 @@
+<?php 
+
+include'db_connect.php';
+include'queries.php';
+
+$sql="SELECT user FROM users ORDER BY user"; 
+
+$response = mysqli_query($sql);
+
+while ($row = mysqli_fetch_row($response))
+{
+	echo$row[0].'<br/>';
+}
+
+/*
+echo "<select name=student value=''>Student Name</option>"; 
+foreach ($dbo->query($sql) as $row){
+
+echo "<option value=$row[id]>$row[name]</option>"; 
+}
+echo "</select>";// Closing of list box*/
+
+?>
