@@ -1,0 +1,24 @@
+#cont.container-fluid {
+    margin: 5% 10%;
+}
+
+div#panel.panel {
+    margin: 50px;
+    box-shadow: #0f4d56 5px 5px 5px;
+}
+
+#Title {
+    font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+    font-weight: 200;
+    font-size: 50px;
+}
+
+#smallTitle {
+    font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+    font-size: 30px;
+}
+
+a,a:hover {
+    font-weight: 900;
+    text-decoration: none;
+}

@@ -1,0 +1,63 @@
+a
+{
+	text-decoration: none;
+	color: red;
+}
+
+footer
+{
+	position: absolute;
+	left:0px;
+	right:0px;
+	bottom: 0px;
+	margin-bottom: 10px;
+}
+
+table
+{
+    width : 99%;
+    margin-left: 15px;
+}
+
+#caption
+{
+	padding-top: 1em;
+	padding-bottom: 0.5em;
+	font-size: 30px;
+    font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+}
+
+table tr td
+{
+    text-align: left;
+	padding-top: 2em;
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    border: 8px solid red;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 2px 2px 5px;
+}
+
+#title
+{
+	padding: 0 10%;
+}
+
+#loginButtonStyle
+{
+    color: red;
+    float:right;
+    margin-right: 55px;
+}
+
+#error {
+    margin: 0 50px;
+    width : 85%;
+    padding-left: 2em;
+    padding-top: 2em;
+}

@@ -1,0 +1,163 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Helvetica", "Calibri", sans-serif;
+	color: white;
+}
+
+a
+{
+	text-decoration: none;
+	color: red;
+}
+
+header
+{
+	position: relative;
+	background-color: rgb(37, 40, 46);
+}
+
+button
+{
+	background-color: white;
+	color: red;
+	width: 60px;
+}
+
+#textOverImg
+{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 35%;
+	color: white;
+}
+
+#logoFixed
+{
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+#homeButton
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#addButton
+{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	margin-top: 50px;
+	margin-right: 50px;
+	
+}
+
+#leftView
+{
+	position: absolute;
+	left: 0px;
+	width: 26%;
+	height: 85%;
+	background-color: rgb(37, 40, 46);
+}
+
+#leftView h2
+{
+	width: 40%;
+	white-space: nowrap;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8%;
+}
+
+#leftWrap
+{
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+#rightView
+{
+	position: absolute;
+	right: 0px;
+	width: 72%;
+	height: 85%;
+	background-color: rgb(37, 40, 46);
+}
+
+#rightWrap 
+{
+	width: 40%;
+	margin-left: 30px;
+	margin-top: 2.5%;
+}
+
+#rightWrap #events
+{
+	background-color: white;
+	width: 1000px;
+	margin-left: 30px;
+}
+
+#events p, #events h2, #events h3
+{
+	color: red;
+}
+
+#scheduleEdit
+{
+	position: relative;
+}
+
+#scheduleEdit img
+{
+	position: absolute;
+	margin-top: 50px;
+	right: 0px;
+}
+
+#save
+{
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	margin-right: 100px;
+	margin-bottom: 10px;
+}
+
+#cancel
+{
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+#full
+{
+	float: right;
+}
+
+#middle
+{
+	float:right;
+}
+
+#week
+{
+	float: right;
+}

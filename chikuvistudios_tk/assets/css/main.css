@@ -1,0 +1,14 @@
+.imgBorder{
+    padding: 15px;
+    border: 8px solid darkred;
+    box-shadow: #9d1720 5px 5px 20px;
+    opacity: 1;
+    transition: all 1s ease 0s;
+}
+
+.imgBorder:hover {
+    transition: all 1s ease 0s;
+    opacity: 0.75;
+    box-shadow: #2e5056 5px 5px 20px;
+    border-color: #007788;
+}

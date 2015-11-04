@@ -1,0 +1,13 @@
+.col-md-6 {
+    padding: 0 70px;
+}
+
+p {
+    margin: 0 55;
+    font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+    font-size: xx-large;
+}
+
+#createUser {
+    margin-top: 40px;
+}

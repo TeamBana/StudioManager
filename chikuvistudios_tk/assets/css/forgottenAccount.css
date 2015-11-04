@@ -1,0 +1,76 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Helvetica", "Calibri", sans-serif;
+	color: white;
+}
+
+a
+{
+	text-decoration: none;
+	color: red;
+}
+
+header
+{
+	position: relative;
+	background-color: rgb(37, 40, 46);
+}
+
+table
+{
+	margin-top: 20%;
+	width: 49%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+
+#textOverImg
+{
+	position: absolute;
+	left:0;
+	right:0;
+	top: 35%;
+	color: white;
+}
+
+#logoFixed
+{
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+#forgottenPassword
+{
+	position: absolute;
+	left: 0px;
+	width: 49%;
+	height: 85%;
+	background-color: rgb(37, 40, 46);
+}
+
+#forgottenUsername
+{
+	position: absolute;
+	right: 0px;
+	width: 49%;
+	height: 85%;
+	background-color: rgb(37, 40, 46);
+}
+
+#homeButton
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+

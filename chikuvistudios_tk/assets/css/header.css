@@ -1,0 +1,42 @@
+body
+{
+	background-color: rgb(37, 40, 46);
+	font-family: "Helvetica", "Calibri", sans-serif;
+	color: white;
+    transition: all 0.3s ease 0s;
+}
+
+.row {
+    margin-right: 0px;
+}
+
+.dp-dark {
+    background-color: #333333;
+}
+
+.dropdown-menu >li>a {
+    color: #f5f5f5;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+    transition: all 0.5s ease 0s;
+    background-color: rgba(23, 51, 59, 0.87);
+}
+
+#imgUnderText
+{
+    /*position:fixed;*/
+    left:0px;
+    right:0px;
+    margin-top:50px;
+	padding-bottom: 5em;
+}
+
+#logoFixed
+{
+    bottom:70px;
+    left: 0px;
+    right: 0px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}

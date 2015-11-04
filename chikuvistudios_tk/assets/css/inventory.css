@@ -1,0 +1,16 @@
+#cont.container-fluid {
+    margin: 0 5%;
+}
+
+p#title {
+    margin: 0 55px 50px;
+    font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+    font-size: xx-large;
+}
+
+.row.table-responsive {
+    margin: 30px 5px;
+}
+.row#theButtons {
+    margin: 10px 25px;
+}
